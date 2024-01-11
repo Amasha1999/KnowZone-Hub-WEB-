@@ -436,7 +436,7 @@ header .navbar a:hover,
     border-radius: 6px;
     padding: 20px 60px 30px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    background: #c5a990;
+    background: #d5a87e;
   }
   .container .content{
     display: flex;
@@ -469,7 +469,7 @@ header .navbar a:hover,
   }
   .content .left-side .details i{
     font-size: 30px;
-    color: #3e2093;
+    color: #176082;
     margin-bottom: 10px;
   }
   .content .left-side .details .topic{
@@ -479,7 +479,7 @@ header .navbar a:hover,
   .content .left-side .details .text-one,
   .content .left-side .details .text-two{
     font-size: 14px;
-    color: #afafb6;
+    color: #176082;
   }
   .container .content .right-side{
     width: 75%;
@@ -488,7 +488,7 @@ header .navbar a:hover,
   .content .right-side .topic-text{
     font-size: 23px;
     font-weight: 600;
-    color: #3e2093;
+    color: #176082;
   }
   .right-side .input-box{
     height: 50px;
@@ -508,7 +508,7 @@ header .navbar a:hover,
     resize: none;
   }
   .right-side .message-box{
-    min-height: 110px;
+    min-height: 130px;
   }
   .right-side .input-box textarea{
     padding-top: 6px;
@@ -517,10 +517,22 @@ header .navbar a:hover,
     display: inline-block;
     margin-top: 12px;
   }
- /* ... your previous code ... */
+  .right-side .button input[type="button"]{
+    height: 30px;
+    width: 80px;
+    border: none;
+    outline: none;
+    font-size: 11px;
+    color: #fff;
+    background: #176082;
+    border-radius: 6px;
+    cursor: pointer;
+  }
 
 .right-side .button input[type="button"]:hover {
-  background: #5029bc;
+  background: #0572AA;
+  border-radius: 2px;
+  margin: 4px 2px;
 }
 
 @media (max-width: 950px) {
