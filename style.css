@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --orange:#f3d09f;
+    --orange:#d5a87e;
     --pink:#bb919a;
     --black: #1d1c1c;
     --white: #fff;
@@ -80,27 +80,32 @@
   
   /*header */
 
-  .header{
-    position:fixed;
-    top: 0; left: 0; right: 0;
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 0.0001rem 9%; /* Reduced top and bottom padding */
     background: var(--white);
     box-shadow: var(--box-shadow);
-  }
+    height: 90px;
+    
+    
+}
 
   .header .logo{
     font-size:2.5rem;
     font-weight: bolder;
-  color: var(--black);
+    color: var(--black);
   
 }
 .logo-img {
-    width: 110px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 130px; /* Adjust the width as needed */
+    height: 130px; /* Maintain aspect ratio */
     margin-right: 20px; /* Adjust spacing between image and text */
   }
 
@@ -329,6 +334,8 @@ header .navbar a:hover,
     background-color: #d5a87e;
     border-radius: 2rem;
     box-shadow: var(--box-shadow);
+    
+    width: 90%;
 }
 
 .course .box-container .box:hover{
@@ -522,7 +529,7 @@ header .navbar a:hover,
     width: 80px;
     border: none;
     outline: none;
-    font-size: 11px;
+    font-size: 12px;
     color: #fff;
     background: #176082;
     border-radius: 6px;
