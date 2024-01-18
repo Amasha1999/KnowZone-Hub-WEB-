@@ -484,10 +484,22 @@ header .navbar a:hover,
     font-weight: 500;
   }
   .content .left-side .details .text-one,
-  .content .left-side .details .text-two{
-    font-size: 14px;
+.content .left-side .details .text-two {
+    font-size: 15px;
     color: #176082;
-  }
+    cursor: pointer;
+    
+}
+
+.content .left-side .details .text-one:hover,
+.content .left-side .details .text-two:hover {
+    background-color: #0572AA;
+    color: var(--white);
+}
+
+  
+    
+  
   .container .content .right-side{
     width: 75%;
     margin-left: 75px;
@@ -525,11 +537,11 @@ header .navbar a:hover,
     margin-top: 12px;
   }
   .right-side .button input[type="button"]{
-    height: 30px;
-    width: 80px;
+    height: 35px;
+    width: 85px;
     border: none;
     outline: none;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     background: #176082;
     border-radius: 6px;
