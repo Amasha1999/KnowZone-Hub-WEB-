@@ -8,8 +8,8 @@ Excited to share the coding harvest on LinkedIn through a task completion post! 
                                                                Screenshots
 
 
-![images](Img/1.png)
-![images](Img/2.png)
-![images](Img/3.png)
-![images](Img/4.png)
-![images](Img/5.png)
+![images](Images/1.png)
+![images](Images/2.png)
+![images](Images/3.png)
+![images](Images/4.png)
+![images](Images/5.png)
