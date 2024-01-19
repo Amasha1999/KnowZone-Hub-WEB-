@@ -15,7 +15,7 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform:capitalize;
     transition: all .2s linear;
   }
 
@@ -27,6 +27,8 @@
   section{
     padding: 3rem 7%;
   }
+
+  
 
 
   
@@ -200,7 +202,7 @@ header .navbar a:hover,
   padding: 1rem;
   font-size: 1.6rem;
   color: var(--black);
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .header .login-form p{
